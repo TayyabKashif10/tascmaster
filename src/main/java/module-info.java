@@ -9,4 +9,7 @@ module org.tasc.tascmaster {
 
     opens org.tasc.tascmaster to javafx.fxml;
     exports org.tasc.tascmaster;
+
+    opens org.tasc.tascmaster.Controllers to javafx.fxml;
+    exports org.tasc.tascmaster.Controllers;
 }

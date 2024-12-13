@@ -1,9 +1,30 @@
 .dashboard_container {
-    -fx-background-color: #EEEEEE;
+    -fx-background-color: #eeeeee;
+}
+
+.sidebar_title {
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-font-family: "Courier New";
 }
 
 .sidebar_container {
-    -fx-background-color: #FFFFFF;
+    -fx-background-color: white;
     -fx-background-radius: 10;
     -fx-background-insets: 5;
+    -fx-padding: 15, 20;
+    -fx-spacing: 15;
+    -fx-alignment: TOP_CENTER;
+}
+
+.sidebar_button {
+    -fx-max-width: Infinity;
+    -fx-font-size: 13;
+    -fx-background-color: white;
+    -fx-effect: dropshadow(three-pass-box, grey, 2, 0, 0, 3);
+}
+
+.sidebar_container Button:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #eeeeee;
 }
