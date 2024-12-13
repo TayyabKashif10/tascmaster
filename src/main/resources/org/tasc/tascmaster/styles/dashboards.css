@@ -1,0 +1,9 @@
+.dashboard_container {
+    -fx-background-color: #EEEEEE;
+}
+
+.sidebar_container {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 10;
+    -fx-background-insets: 5;
+}
