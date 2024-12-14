@@ -1,0 +1,31 @@
+.container {
+    -fx-spacing: 8;
+    -fx-padding: 0 0 0 10;
+    -fx-border-width: 0 0 0 1;
+    -fx-border-color: grey;
+}
+
+.container Text {
+    -fx-fill: grey;
+    -fx-font-size: 13;
+}
+
+.container TextField {
+    -fx-pref-width: 150;
+}
+
+.container Button {
+    -fx-text-fill: white;
+    -fx-background-color: #b63c3c;
+}
+
+.container Button:hover {
+    -fx-background-color: #eeeeee;
+    -fx-cursor: hand;
+}
+
+.item_header {
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+    -fx-font-size: 15;
+}

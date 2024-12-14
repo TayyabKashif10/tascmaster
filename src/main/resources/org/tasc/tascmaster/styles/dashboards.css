@@ -17,14 +17,22 @@
     -fx-alignment: TOP_CENTER;
 }
 
-.sidebar_button {
+.sidebar_container Button {
     -fx-max-width: Infinity;
     -fx-font-size: 13;
-    -fx-background-color: white;
-    -fx-effect: dropshadow(three-pass-box, grey, 2, 0, 0, 3);
+    -fx-background-color: #eeeeee;
 }
 
 .sidebar_container Button:hover {
     -fx-cursor: hand;
-    -fx-background-color: #eeeeee;
+    -fx-background-color: #dddddd;
+}
+
+.sidebar_button2 {
+    -fx-background-color: #b63c3c;
+    -fx-text-fill: white;
+}
+
+.sidebar_button2:hover {
+    -fx-background-color: #992b2b;
 }

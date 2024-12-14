@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ead8e6d6-c0f1-4580-be92-611d155396d4" name="Changes" comment="modified directory structure">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/tasc/tascmaster/Controllers/RQDashboardView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/tasc/tascmaster/styles/colors.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tasc/tascmaster/Controllers/RQAddRequestView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tasc/tascmaster/Controllers/RQSidebarView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tasc/tascmaster/Models/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tasc/tascmaster/Models/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tasc/tascmaster/Models/RequestItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/tasc/tascmaster/fxmls/RQAddRequest-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/tasc/tascmaster/fxmls/RQSidebar-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/tasc/tascmaster/styles/inputs.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tasc/tascmaster/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tasc/tascmaster/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tasc/tascmaster/Controllers/RQDashboardView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tasc/tascmaster/Controllers/RQDashboardView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/tasc/tascmaster/fxmls/RQDashboard-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/tasc/tascmaster/fxmls/RQDashboard-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/tasc/tascmaster/styles/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/tasc/tascmaster/styles/colors.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/tasc/tascmaster/styles/dashboards.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/tasc/tascmaster/styles/dashboards.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,9 +28,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="FxmlFile" />
         <option value="Class" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -119,6 +126,8 @@
       <workItem from="1734096415036" duration="3231000" />
       <workItem from="1734115246064" duration="4361000" />
       <workItem from="1734119889090" duration="37000" />
+      <workItem from="1734164332193" duration="8254000" />
+      <workItem from="1734181173405" duration="530000" />
     </task>
     <servers />
   </component>
