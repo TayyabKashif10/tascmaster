@@ -1,4 +1,4 @@
-package org.tasc.tascmaster;
+package org.tasc.tascmaster.Controllers;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
