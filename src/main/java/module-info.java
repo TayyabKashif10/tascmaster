@@ -1,17 +1,16 @@
 module tascmaster {
-    requires javafx.base;
-    requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
 
 //    requires org.controlsfx.controls;
 //    requires org.kordamp.ikonli.javafx;
 //    requires eu.hansolo.tilesfx;
-    requires javafx.graphics;
     requires java.sql;
-    requires java.desktop;
+    requires org.controlsfx.controls;
     opens org.tasc.tascmaster to javafx.fxml;
     exports org.tasc.tascmaster;
+    opens org.tasc.tascmaster.Models to javafx.base;
     opens org.tasc.tascmaster.Controllers to javafx.fxml;
+    opens org.tasc.tascmaster.Controllers.OrderProcessing to javafx.fxml;
 
 }
