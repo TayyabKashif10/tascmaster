@@ -1,4 +1,4 @@
-package org.tasc.tascmaster.Models;
+package org.tasc.tascmaster.Models.Core;
 
 public class RequestItem {
     private int requestID;

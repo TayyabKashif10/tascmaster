@@ -9,8 +9,9 @@ module tascmaster {
     requires org.controlsfx.controls;
     opens org.tasc.tascmaster to javafx.fxml;
     exports org.tasc.tascmaster;
-    opens org.tasc.tascmaster.Models to javafx.base;
+    opens org.tasc.tascmaster.Models.Derived to javafx.base;
     opens org.tasc.tascmaster.Controllers to javafx.fxml;
     opens org.tasc.tascmaster.Controllers.OrderProcessing to javafx.fxml;
+    opens org.tasc.tascmaster.Models.Core to javafx.base;
 
 }

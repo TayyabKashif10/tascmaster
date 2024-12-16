@@ -1,0 +1,12 @@
+
+
+.title {
+    -fx-text-fill: #800000;
+
+}
+
+
+Label {
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}

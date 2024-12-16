@@ -11,7 +11,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="600.0" prefWidth="190.0" styleClass="dashboard_container" stylesheets="@../styles/dashboards.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.tasc.tascmaster.Controllers.OrderProcessing.OPSidebarController">
+<AnchorPane prefHeight="600.0" prefWidth="190.0" styleClass="dashboard_container" stylesheets="@../styles/dashboards.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.tasc.tascmaster.Controllers.OrderProcessing.SidebarController">
     <VBox layoutX="-4.0" layoutY="208.0" prefHeight="380.0" prefWidth="190.0" styleClass="sidebar_container" stylesheets="@../styles/dashboards.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
       <children>
          <ImageView fitHeight="72.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true" styleClass="sidebar_logo" translateX="43.0">
@@ -24,27 +24,27 @@
             </font></Text>
          <Separator prefWidth="200.0" visible="false" />
          <Separator prefWidth="200.0" styleClass="sidebar_separator" visible="false" />
-         <Button graphicTextGap="14.0" mnemonicParsing="false" styleClass="sidebar_container" text="Purchase Orders">
+         <Button graphicTextGap="14.0" mnemonicParsing="false" styleClass="sidebar_container" text="Purchase Orders" fx:id="purchaseOrdersBtn">
             <graphic>
                <FontAwesomeIconView glyphName="LIST" styleClass="sidebar_icons" />
             </graphic></Button>
-         <Button graphicTextGap="17.0" mnemonicParsing="false" styleClass="sidebar_container" text="Vendor Orders">
+         <Button graphicTextGap="17.0" mnemonicParsing="false" styleClass="sidebar_container" text="Vendor Orders" fx:id="vendorOrdersBtn">
             <graphic>
                <FontAwesomeIconView glyphName="LIST" styleClass="sidebar_icons" />
             </graphic>
             <VBox.margin>
                <Insets />
             </VBox.margin></Button>
-         <Button graphicTextGap="10.0" mnemonicParsing="false" styleClass="sidebar_container" text="Add Vendor Order">
+         <Button graphicTextGap="10.0" mnemonicParsing="false" styleClass="sidebar_container" text="Add Vendor Order" fx:id="addVendorOrderBtn">
             <graphic>
                <FontAwesomeIconView glyphName="PLUS" size="16" styleClass="sidebar_icons" text="" />
             </graphic>
          </Button>
-         <Button graphicTextGap="27.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" styleClass="sidebar_container" text="Inventory">
+         <Button graphicTextGap="27.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" styleClass="sidebar_container" text="Inventory" fx:id="inventoryBtn">
             <graphic>
                <FontAwesomeIconView glyphName="TRUCK" size="16" styleClass="sidebar_icons" />
             </graphic></Button>
-         <Button graphicTextGap="36.0" mnemonicParsing="false" styleClass="sidebar_container" text="Items">
+         <Button graphicTextGap="36.0" mnemonicParsing="false" styleClass="sidebar_container" text="Items" fx:id="itemsBtn">
             <graphic>
                <FontAwesomeIconView glyphName="SHOPPING_CART" size="16" styleClass="sidebar_icons" />
             </graphic></Button>

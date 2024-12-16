@@ -3,7 +3,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.StackPane?>
 
-<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.tasc.tascmaster.Controllers.OrderProcessing.OPDashController">
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.tasc.tascmaster.Controllers.OrderProcessing.DashController">
     <left>
         <StackPane fx:id="sidebarPane"/>
     </left>

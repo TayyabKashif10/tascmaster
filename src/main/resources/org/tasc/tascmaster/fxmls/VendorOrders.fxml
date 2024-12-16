@@ -14,7 +14,7 @@
         <columns>
           <TableColumn fx:id="vendorOrderIDColumn" text="Order ID" />
           <TableColumn fx:id="vendorIDColumn" prefWidth="75.0" text="Vendor ID" />
-            <TableColumn prefWidth="185.0" text="Vendor Name" />
+            <TableColumn prefWidth="185.0" text="Vendor Name" fx:id="vendorNameColumn"/>
             <TableColumn fx:id="deliveryDateColumn" minWidth="0.0" prefWidth="115.0" text="Delivery Date" />
             <TableColumn fx:id="statusColumn" minWidth="0.0" prefWidth="100.0" text="Status" />
         </columns>
@@ -25,11 +25,11 @@
             <Font name="Courier New Bold" size="18.0" />
          </font>
       </Text>
-      <TableView layoutX="123.0" layoutY="393.0" prefHeight="178.0" prefWidth="383.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="40.0">
+      <TableView layoutX="123.0" fx:id="venOrderItemTV" layoutY="393.0" prefHeight="178.0" prefWidth="383.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="40.0">
         <columns>
-          <TableColumn prefWidth="75.0" text="Item ID" />
-          <TableColumn prefWidth="199.19993591308594" text="Item Name" />
-            <TableColumn minWidth="0.0" prefWidth="107.99998779296874" text="Quantity" />
+          <TableColumn prefWidth="75.0" text="Item ID" fx:id="itemIDColumn" />
+          <TableColumn prefWidth="199.19993591308594" text="Item Name" fx:id="itemNameColumn"/>
+            <TableColumn minWidth="0.0" prefWidth="107.99998779296874" text="Quantity" fx:id="quantityColumn"/>
         </columns>
       </TableView>
       <Button fx:id="deleteOrderBtn" disable="true" layoutX="40.0" layoutY="14.0" mnemonicParsing="false" text="Delete Vendor Order" />
